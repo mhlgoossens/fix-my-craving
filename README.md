@@ -49,7 +49,12 @@ The first step would be making sure that I can actually access the google maps A
 Place search Google [places API](https://developers.google.com/places/web-service/search).  
 List of the supported values for the [types property](https://developers.google.com/places/supported_types) (e.g. cafe, night club).  
 Markdown: [wiki](https://en.wikipedia.org/wiki/Markdown) and [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+Unicode [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 API key, first test:
 
 ![api-test](assets/api-test-succes.png)
+
+## help
+
+I could still use a bit of help with setting up eslint for the correct version of React, it looks like I have missed something, somewhere.
