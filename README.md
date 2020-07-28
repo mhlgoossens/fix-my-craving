@@ -5,8 +5,8 @@ A one-day project as part of the &lt;/salt> full stack javascript bootcamp. Let 
 ## requirements
 
 - scoped for one day
-- implement a front-end: React
-- implement a back-end: express & maps API
+- implement a front-end, I will go with React
+- implement a back-end, I will use express and the Google Maps API
 - live demo the next morning.
 
 > keep it simple, improve in small increments, have fun!
