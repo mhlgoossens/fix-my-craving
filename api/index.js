@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const testRouter = require('./routes/testAPI');
 
@@ -10,6 +11,7 @@ const port = 9000;
 // middleware
 app.use(logger('dev'));
 app.use(bodyParser.json());
+app.use(cors());
 
 // routes
 app.use('/test', testRouter);
