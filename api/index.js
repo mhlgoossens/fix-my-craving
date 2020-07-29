@@ -1,7 +1,9 @@
-const express = require('express')
-const app = express()
-const port = 9000
+const express = require('express');
 
-app.get('/', (req, res) => res.send('Hello World!'))
+const app = express();
+const port = 9000;
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.get('/', (req, res) => res.send('Hello World!'));
+
+// eslint-disable-next-line no-console
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
