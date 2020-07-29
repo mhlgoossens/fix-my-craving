@@ -53,7 +53,7 @@ Unicode [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 API key, first test:
 
-![api-test](assets/api-test-succes.png)
+![api-test](assets/api-test-succes1.png)
 
 ## help
 
