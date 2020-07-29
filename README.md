@@ -49,7 +49,8 @@ The first step would be making sure that I can actually access the google maps A
 Place search Google [places API](https://developers.google.com/places/web-service/search).  
 List of the supported values for the [types property](https://developers.google.com/places/supported_types) (e.g. cafe, night club).  
 Markdown: [wiki](https://en.wikipedia.org/wiki/Markdown) and [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-Unicode [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html)
+Unicode [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html)  
+Setting up boilerplate [tutorial](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
 
 API key, first test:
 
