@@ -2,6 +2,11 @@
 
 A one-day project as part of the &lt;/salt> full stack javascript bootcamp. Let the fun begin!
 
+## overview
+
+![mvp](assets/preview.png)
+
+
 ## requirements
 
 - scoped for one day
