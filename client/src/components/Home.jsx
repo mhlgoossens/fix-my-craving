@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Map, LocationPin } from './Map';
+import { Map } from './Map';
 import Emoji from './Emoji';
-import './emoji.css'
+import './emoji.css';
 
 // query params
 const lat = 52.3577442;
@@ -27,15 +27,15 @@ class Home extends Component {
     <div className="container">
       <Map />
       <div className="cravings">
-        <ol>
-          <li><a href="#" onClick={this.makeNewPin}><Emoji symbol="🍔🥩" label="glutony" /></a></li>
-          <li><Emoji symbol="🍆🍑" label="lust" /></li>
-          <li><Emoji symbol="💵🤑" label="greed" /></li>
-          <li><Emoji symbol="🦥💤" label="sloth" /></li>
-          <li><Emoji symbol="😤💣" label="wrath" /></li>
-          <li><Emoji symbol="🏴‍☠️💔" label="envy" /></li>
-          <li><Emoji symbol="😎😏" label="pride" /></li>
-        </ol>
+        <ul>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="🍔🥩" label="glutony" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="🍆🍑" label="lust" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="💵🤑" label="greed" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="🦥💤" label="sloth" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="😤💣" label="wrath" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="🏴‍☠️💔" label="envy" /></button></li>
+          <li><button className="fetchButton" onClick={this.makeNewPin}><Emoji symbol="😎😏" label="pride" /></button></li>
+        </ul>
       </div>
     </div>
   );
